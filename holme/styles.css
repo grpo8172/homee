@@ -1,0 +1,272 @@
+body {
+    background-color: #cbf5d9;
+}
+
+#H1{
+    position: absolute;
+    left:210px;
+    top: 50px;
+}
+
+
+#H2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+
+
+#P1{
+    position: relative;
+    top: 0;
+}
+
+p1{
+    position: relative;
+    top: 0;
+    left: 210px;
+}
+
+
+#H3 {
+    position: absolute;
+    top: 90px;
+    left: 300px;
+}
+
+#pic2 {
+    position: relative;
+}
+
+
+p2{
+    position: relative;
+    top: 0;
+    left: 200px;
+}
+
+
+#H4 {
+    position: absolute;
+    top: 60%;
+    left: 210px;
+}
+
+p3{
+    position: relative;
+    left: 200px;
+    top: 0;
+}
+
+#pic3 {
+    position: relative;
+}
+
+h4{
+    position: relative;
+    left: 250px;
+    top: 0;
+}
+
+p5 {
+    position: relative;
+    left: 250px;
+    top: 0;
+}
+
+
+
+
+
+
+#Doc {
+    position: relative;
+    left: 200px;
+    top: 0;
+}
+
+
+
+div5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+div6 {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}
+
+div7 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+
+div8 {
+    position: absolute;
+    top: 750px;
+    left: 0px;
+}
+
+div9 {
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+}
+
+div10 {
+    position: absolute;
+    top: 1250px;
+    left: 0px;
+}
+
+div11 {
+    position: absolute;
+    top: 1500px;
+    left: 0px;
+}
+
+div13 {
+    position: absolute;
+    top: 1750px;
+    left: 0px;
+}
+
+div14 {
+    position: absolute;
+    top: 2000px;
+    left: 0px;
+}
+
+div15 {
+    position: absolute;
+    top: 2250px;
+    left: 0px;
+}
+
+div16 {
+    position: absolute;
+    top: 2500px;
+    left: 0px;
+}
+
+div17 {
+    position: absolute;
+    top: 2750px;
+    left: 0px;
+}
+
+div18 {
+    position: absolute;
+    top: 3000px;
+    left: 0px;
+}
+
+div19 {
+    position: absolute;
+    top: 3250px;
+    left: 0px;
+}
+
+div20 {
+    position: absolute;
+    top: 4500px;
+    left: 0px;
+}
+
+div21 {
+    position: absolute;
+    top: 4750px;
+    left: 0px;
+}
+
+div22 {
+    position: absolute;
+    top: 5000px;
+    left: 0px;
+}
+
+div23 {
+    position: absolute;
+    top: 5250px;
+    left: 0px;
+}
+
+.contained{
+    padding: 0px;
+}
+
+.box{
+    padding: 0px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
